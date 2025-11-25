@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.overlord.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ClientPlayerEntityMixin",
+    "InGameHudMixin",
+    "GameRendererMixin",
+    "LightmapTextureManagerMixin",
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
