@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "overlord",
+  "version": "${version}",
+  "name": "Minecraft OverLord",
+  "description": "Powerful overlay client with cheats and utilities for Minecraft Java",
+  "authors": ["OverLord Team"],
+  "contact": {
+    "homepage": "https://github.com/hubizo/Minecraft_OverLord",
+    "sources": "https://github.com/hubizo/Minecraft_OverLord"
+  },
+  "license": "MIT",
+  "icon": "assets/overlord/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.overlord.OverLordClient"]
+  },
+  "mixins": ["overlord.mixins.json"],
+  "accessWidener": "overlord.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
